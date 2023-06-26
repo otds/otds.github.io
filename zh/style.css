@@ -1,0 +1,45 @@
+INPUT { COLOR: #333333; FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 
+11px } 
+SELECT { COLOR: #333333; FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 11px 
+} 
+TEXTAREA { COLOR: #FFFFFF; FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 11px 
+} 
+BODY { COLOR: #333333; FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 11px } 
+TR { COLOR: #333333; FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 11px } 
+TD { COLOR: #333333; FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 10px } 
+
+
+.products { COLOR: #0066CC; FONT-FAMILY: "Verdana", "sans-serif"; FONT-SIZE: 11px; font-weight: bold} 
+.textRed { COLOR: #3366CC; FONT-FAMILY: "Verdana", "sans-serif"; FONT-SIZE: 11px } 
+.textBlack { COLOR: #000000; FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 11px } 
+.nav { COLOR: #666666; FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: none } 
+
+
+A { COLOR: #FFFFFF; FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 11px;font-weight: normal; TEXT-DECORATION: none  } 
+A:visited { COLOR: #FFFFFF; FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 11px;font-weight: normal; TEXT-DECORATION: none} 
+A:hover { COLOR: #FFCC00; FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 11px;font-weight: normal; TEXT-DECORATION: none} 
+A:active { COLOR: #FFFFFF; FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 11px; font-weight: normal; TEXT-DECORATION: none}
+
+.vslink:link { COLOR: #FFFFFF; FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: none; font-weight: normal } 
+.vslink:visited { COLOR: #FFFFFF; FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: none; font-weight: normal } 
+.vslink:hover { COLOR: #FFFFFF; FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: underline; font-weight: normal }
+.vslink:active {COLOR: #FFFFFF; FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: underline; font-weight: normal } 
+
+.vslinkg:link { COLOR: #FFFFFF; FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: none; font-weight: normal } 
+.vslinkg:visited { COLOR: #FFFFFF; FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: none; font-weight: normal } 
+.vslinkg:hover { COLOR: #FFFFFF; FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: underline; font-weight: normal }
+.vslinkg:active {COLOR: #FFFFFF; FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: underline; font-weight: normal } 
+
+
+.orange {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #FF6600; text-decoration: none}
+.green {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #33CC00; text-decoration: none}
+
+.copyright {  font-family: "Verdana", "Arial", "Helvetica", "sans-serif"; font-size: 9px; color: #999999}
+.updatehd {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal; font-weight: bold; font-variant: normal; color: #1998A2; text-decoration: none}
+.cap {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; font-weight: normal; color: #FF6600}
+.capg {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; font-weight: normal; color: #1998A2}
+
+.biga {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15px; font-weight: normal; color: #FF6600}
+.price {  font-family: "Verdana", "Arial", "Helvetica", "sans-serif"; font-size: 10px; font-weight: normal; color: #FF0000}
+
+.white {  font-family: "Verdana", "Arial", "Helvetica", "sans-serif"; font-size: 10px; font-weight: normal; color: #FFFFFF}
