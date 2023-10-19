@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-	<title>首页 &#8211; HDWS Consulting</title>
+	<title>About Us &#8211; HDWS Consulting</title>
 	<meta name='robots' content='max-image-preview:large'>
 	<link rel='dns-prefetch' href='http://fonts.googleapis.com/'>
 	<link rel='stylesheet' id='classic-theme-styles-inline-css'
@@ -31,8 +31,6 @@
 			padding: 20px 0;
 		}
 	</style>
-	<link rel='stylesheet' id='nectar-element-fancy-box-css'
-		href='../app/lib/themes/hdws/css/build/elements/element-fancy-box.css' media='all'>
 	<link rel='stylesheet' id='nectar_default_font_open_sans-css'
 		href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700&amp;subset=latin%2Clatin-ext'
 		media='all'>
@@ -152,366 +150,161 @@
 			padding-right: 0;
 		}
 
-		#ajax-content-wrap .col[data-padding-pos="top-bottom"]>.vc_column-inner,
-		#ajax-content-wrap .col[data-padding-pos="top-bottom"]>.n-sticky>.vc_column-inner {
+		.col.padding-2-percent>.vc_column-inner,
+		.col.padding-2-percent>.n-sticky>.vc_column-inner {
+			padding: calc(600px * 0.03);
+		}
+
+		@media only screen and (max-width:690px) {
+
+			.col.padding-2-percent>.vc_column-inner,
+			.col.padding-2-percent>.n-sticky>.vc_column-inner {
+				padding: calc(100vw * 0.03);
+			}
+		}
+
+		@media only screen and (min-width:1000px) {
+
+			.col.padding-2-percent>.vc_column-inner,
+			.col.padding-2-percent>.n-sticky>.vc_column-inner {
+				padding: calc((100vw - 180px) * 0.02);
+			}
+
+			.column_container:not(.vc_col-sm-12) .col.padding-2-percent>.vc_column-inner {
+				padding: calc((100vw - 180px) * 0.01);
+			}
+		}
+
+		@media only screen and (min-width:1425px) {
+			.col.padding-2-percent>.vc_column-inner {
+				padding: calc(1245px * 0.02);
+			}
+
+			.column_container:not(.vc_col-sm-12) .col.padding-2-percent>.vc_column-inner {
+				padding: calc(1245px * 0.01);
+			}
+		}
+
+		.full-width-content .col.padding-2-percent>.vc_column-inner {
+			padding: calc(100vw * 0.02);
+		}
+
+		@media only screen and (max-width:999px) {
+			.full-width-content .col.padding-2-percent>.vc_column-inner {
+				padding: calc(100vw * 0.03);
+			}
+		}
+
+		.wpb_column.max_width_desktop_70pct {
+			max-width: 70%;
+		}
+
+		@media only screen and (min-width:690px) and (max-width:999px) {}
+
+		@media only screen and (min-width:690px) and (max-width:999px) {
+			.column_element_direction_tablet_horizontal>.vc_column-inner>.wpb_wrapper {
+				display: flex;
+				align-items: center;
+			}
+
+			#ajax-content-wrap .column_element_direction_tablet_horizontal>.vc_column-inner>.wpb_wrapper>* {
+				margin-bottom: 0;
+			}
+		}
+
+		.wpb_column.max_width_desktop_20pct {
+			max-width: 20%;
+		}
+
+		body #ajax-content-wrap .col[data-padding-pos="right"]>.vc_column-inner,
+		#ajax-content-wrap .col[data-padding-pos="right"]>.n-sticky>.vc_column-inner {
 			padding-left: 0;
-			padding-right: 0
+			padding-top: 0;
+			padding-bottom: 0
 		}
 
-		.container-wrap .main-content .column-image-bg-wrap[data-bg-pos="center center"] .column-image-bg {
-			background-position: center center;
+		@media only screen and (min-width:1000px) {
+			.full-width-content .column_container:not(.vc_col-sm-12) .col.padding-2-percent>.vc_column-inner {
+				padding: calc(100vw * 0.01);
+			}
 		}
 
-		.vc_row.full-width-content .nectar-fancy-box[data-style="parallax_hover"] {
+		#ajax-content-wrap .nectar-responsive-text * {
 			margin-bottom: 0;
+			color: inherit;
 		}
 
-		.nectar-fancy-box[data-style="parallax_hover"]:after {
-			display: none;
+		#ajax-content-wrap .nectar-responsive-text[class*="font_size"] * {
+			font-size: inherit;
+			line-height: inherit;
 		}
 
-		.nectar-fancy-box[data-style="parallax_hover"] p {
-			opacity: 0.8;
+		.nectar-responsive-text.nectar-link-underline-effect a {
+			text-decoration: none;
 		}
 
-		.nectar-fancy-box[data-style="parallax_hover"] i,
-		.nectar-fancy-box[data-style="parallax_hover"] .im-icon-wrap {
-			opacity: 0.5;
-			transition: all 0.45s cubic-bezier(0.25, 1, 0.2, 1);
+		#ajax-content-wrap .vc_row.left_margin_2pct {
+			margin-left: 2%;
 		}
 
-		.nectar-fancy-box[data-style="parallax_hover"]:hover i,
-		.nectar-fancy-box[data-style="parallax_hover"]:hover .im-icon-wrap {
-			opacity: 1;
+		#ajax-content-wrap .vc_row.right_margin_5pct {
+			margin-right: 5%;
 		}
 
-		.nectar-fancy-box[data-style="parallax_hover"] {
-			padding: 0;
+		@media only screen and (max-width:999px) {
+			.vc_row.top_padding_tablet_3pct {
+				padding-top: 3% !important;
+			}
 		}
 
-		.nectar-fancy-box[data-style="parallax_hover"] .parallaxImg-wrap {
-			transform: translateZ(0px);
+		@media only screen and (max-width:999px) {
+			body #ajax-content-wrap .vc_row.left_margin_tablet_0px {
+				margin-left: 0;
+			}
 		}
 
-		.nectar-fancy-box[data-style="parallax_hover"] .parallaxImg {
-			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-			outline: 1px solid transparent;
-			transition: transform 0.23s ease-out;
-			-webkit-transition: transform 0.23s ease-out;
-			position: relative;
-			z-index: 10;
+		@media only screen and (max-width:999px) {
+			.vc_row.top_padding_tablet_0px {
+				padding-top: 0 !important;
+			}
 		}
 
-		.nectar-fancy-box[data-style="parallax_hover"] [class^="icon-"].icon-default-style {
-			margin-bottom: 25px;
+		@media only screen and (max-width:999px) {
+			.vc_row.translate_x_tablet_0px.translate_y_tablet_0px {
+				-webkit-transform: translateX(0px) translateY(0px);
+				transform: translateX(0px) translateY(0px);
+			}
 		}
 
-		.nectar-fancy-box[data-style="parallax_hover"] .parallaxImg-container {
-			position: relative;
-			width: 100.2%;
-			height: 100%;
-			outline: 1px solid transparent;
-			will-change: transform;
-			transform-style: preserve-3d;
-			-webkit-transform-style: preserve-3d;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"] img {
-			width: 100% !important;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"] .parallaxImg-layers {
-			position: relative;
-			width: 100%;
-			height: 100%;
-			z-index: 2;
-			backface-visibility: hidden;
-			-webkit-backface-visibility: hidden;
-			transform-style: preserve-3d;
-			-webkit-transform-style: preserve-3d;
-			outline: 1px solid transparent;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"] .parallaxImg-rendered-layer,
-		.nectar-fancy-box[data-style="parallax_hover"] .bg-img:after {
-			position: absolute;
-			width: 100%;
-			height: 100%;
-			top: 0;
-			left: 0;
-			background-repeat: no-repeat;
-			background-position: center;
-			background-color: transparent;
-			background-size: cover;
-			outline: 1px solid transparent;
-			overflow: hidden;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"] .bg-img:after {
-			display: block;
-			content: "";
-			background-color: rgba(40, 40, 40, 1);
-			transition: all 0.45s cubic-bezier(0.25, 1, 0.2, 1);
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"] .parallaxImg-rendered-layer:last-child {
-			position: relative;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"]:hover .parallaxImg-container .parallaxImg-rendered-layer:nth-child(2) {
-			transform: translateZ(65px) !important;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"] .parallaxImg-rendered-layer>.bg-img {
-			position: absolute;
-			width: 100%;
-			height: 100%;
-			top: 0;
-			left: 0;
-			background-repeat: no-repeat;
-			background-position: center;
-			background-color: transparent;
-			background-size: cover;
-			outline: 1px solid transparent;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"] .parallaxImg-container .parallaxImg-rendered-layer,
-		.nectar-fancy-box[data-style="parallax_hover"] .parallaxImg.transition .parallaxImg-container .parallaxImg-rendered-layer {
-			backface-visibility: hidden;
-			-webkit-backface-visibility: hidden;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"] .parallaxImg-container .parallaxImg-shadow,
-		.nectar-fancy-box[data-style="parallax_hover"] .parallaxImg-container,
-		.nectar-fancy-box[data-style="parallax_hover"] .parallaxImg.transition .parallaxImg-container,
-		.nectar-fancy-box[data-style="parallax_hover"] .parallaxImg.transition .parallaxImg-container .parallaxImg-shadow {
-			backface-visibility: hidden;
-			-webkit-backface-visibility: hidden;
-		}
-
-		html.cssreflections .nectar-fancy-box[data-style="parallax_hover"] .parallaxImg-container .parallaxImg-shadow,
-		html.cssreflections .nectar-fancy-box[data-style="parallax_hover"] .parallaxImg-container,
-		.nectar-fancy-box[data-style="parallax_hover"] .parallaxImg.transition .parallaxImg-container,
-		.nectar-fancy-box[data-style="parallax_hover"] .parallaxImg.transition .parallaxImg-container .parallaxImg-shadow,
-		html.cssreflections .nectar-fancy-box[data-style="parallax_hover"] .parallaxImg-container .parallaxImg-rendered-layer,
-		.nectar-fancy-box[data-style="parallax_hover"] .parallaxImg.transition .parallaxImg-container .parallaxImg-rendered-layer {
-			transition: transform 0.27s ease-out;
-			-webkit-transition: transform 0.27s ease-out;
-		}
-
-		html.cssreflections .nectar-fancy-box[data-style="parallax_hover"] .parallaxImg.over .parallaxImg-container {
-			will-change: transform;
-		}
-
-		html.cssreflections .nectar-fancy-box[data-style="parallax_hover"] .parallaxImg-container:not(.over),
-		html.cssreflections .nectar-fancy-box[data-style="parallax_hover"] .parallaxImg-container:not(.over) .parallaxImg-rendered-layer,
-		html.cssreflections .nectar-fancy-box[data-style="parallax_hover"] .parallaxImg:not(.over) {
-			transition: transform 0.25s ease-out;
-			-webkit-transition: transform 0.25s ease-out;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"] .parallaxImg-container:not(.over) .parallaxImg-shadow,
-		.nectar-fancy-box[data-style="parallax_hover"] .parallaxImg.transition .parallaxImg-container .parallaxImg-shadow {
-			transition: all 0.27s ease-out;
-			-webkit-transition: all 0.27s ease-out;
-		}
-
-		body.cssreflections .nectar-fancy-box[data-style="parallax_hover"] .parallaxImg-container .parallaxImg-shadow,
-		body.cssreflections .nectar-fancy-box[data-style="parallax_hover"] .parallaxImg-container,
-		body.cssreflections .nectar-fancy-box[data-style="parallax_hover"] .parallaxImg.transition .parallaxImg-container,
-		body.cssreflections .nectar-fancy-box[data-style="parallax_hover"] .parallaxImg.transition .parallaxImg-container .parallaxImg-shadow,
-		body.cssreflections .nectar-fancy-box[data-style="parallax_hover"] .parallaxImg-container .parallaxImg-rendered-layer,
-		body.cssreflections .nectar-fancy-box[data-style="parallax_hover"] .parallaxImg.transition .parallaxImg-container .parallaxImg-rendered-layer,
-		body.cssreflections .nectar-fancy-box[data-style="parallax_hover"] .parallaxImg {
-			transition: transform 0.1s ease-out;
-			-webkit-transition: transform 0.1s ease-out;
-		}
-
-		body.cssreflections .nectar-fancy-box[data-style="parallax_hover"] .parallaxImg.transition .parallaxImg-container,
-		body.cssreflections .nectar-fancy-box[data-style="parallax_hover"] .parallaxImg.transition .parallaxImg-container .parallaxImg-shadow,
-		body.cssreflections .nectar-fancy-box[data-style="parallax_hover"] .parallaxImg.transition .parallaxImg-container .parallaxImg-rendered-layer,
-		body.cssreflections .nectar-fancy-box[data-style="parallax_hover"] .parallaxImg.transition {
-			transition: transform 0.2s ease-out;
-			-webkit-transition: transform 0.2s ease-out;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"] {
-			overflow: visible;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"] .parallaxImg-shadow {
-			position: absolute;
-			top: 5%;
-			left: 5%;
-			width: 90%;
-			height: 90%;
-			transition: transform 0.27s ease-out, opacity 0.27s ease-out;
-			z-index: 1;
-			opacity: 0;
-			box-shadow: 0 35px 100px rgba(0, 0, 0, 0.4), 0 16px 40px rgba(0, 0, 0, 0.4);
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"]:hover {
-			z-index: 100;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"]:hover .parallaxImg-shadow {
-			opacity: 1;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"] .meta-wrap {
-			display: -ms-flexbox;
-			display: -webkit-flex;
-			display: flex;
-			-webkit-align-items: center;
-			align-items: center;
-			justify-content: center;
-			-webkit-justify-content: center;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"] .inner {
-			margin-bottom: 0;
-			padding: 25% 0;
-			position: relative;
-			width: 65%;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity="0"] .bg-img:after,
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity-hover="0"]:hover .parallaxImg-wrap .bg-img:after {
-			opacity: 0;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity="0.1"] .bg-img:after,
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity-hover="0.1"]:hover .parallaxImg-wrap .bg-img:after {
-			opacity: 0.1;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"]:hover .bg-img:after,
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity="0.2"] .bg-img:after,
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity-hover="0.2"]:hover .parallaxImg-wrap .bg-img:after {
-			opacity: 0.2;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity="0.3"] .bg-img:after,
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity-hover="0.3"]:hover .parallaxImg-wrap .bg-img:after {
-			opacity: 0.3;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity="0.4"] .bg-img:after,
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity-hover="0.4"]:hover .parallaxImg-wrap .bg-img:after {
-			opacity: 0.4;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity="0.5"] .bg-img:after,
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity-hover="0.5"]:hover .parallaxImg-wrap .bg-img:after {
-			opacity: 0.5;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"] .bg-img:after,
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity="0.6"] .bg-img:after,
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity-hover="0.6"]:hover .parallaxImg-wrap .bg-img:after {
-			opacity: 0.6;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity="0.7"] .bg-img:after,
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity-hover="0.7"]:hover .parallaxImg-wrap .bg-img:after {
-			opacity: 0.7;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity="0.8"] .bg-img:after,
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity-hover="0.8"]:hover .parallaxImg-wrap .bg-img:after {
-			opacity: 0.8;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity="0.9"] .bg-img:after,
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity-hover="0.9"]:hover .parallaxImg-wrap .bg-img:after {
-			opacity: 0.9;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity="1"] .bg-img:after,
-		.nectar-fancy-box[data-style="parallax_hover"][data-overlay-opacity-hover="1"]:hover .parallaxImg-wrap .bg-img:after {
-			opacity: 1;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"][data-align="top"] .meta-wrap {
-			-webkit-align-items: flex-start;
-			align-items: flex-start;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"][data-align="top"] .meta-wrap .inner {
-			padding-top: 12%;
-			width: 73%;
-			padding-right: 5%;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"][data-align="bottom"] .meta-wrap {
-			-webkit-align-items: flex-end;
-			align-items: flex-end;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"][data-align="bottom"] .meta-wrap .inner {
-			padding-bottom: 12%;
-			width: 73%;
-			padding-right: 5%;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"].overlay_898989 .bg-img:after {
-			background-color: #898989;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"].overlay_d68125 .bg-img:after {
-			background-color: #d68125;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"].overlay_af3a10 .bg-img:after {
-			background-color: #af3a10;
-		}
-
-		.nectar-fancy-box[data-style="parallax_hover"].overlay_333333 .bg-img:after {
-			background-color: #333333;
+		@media only screen and (max-width:999px) {
+			body .wpb_column.max_width_tablet_90pct {
+				max-width: 90%;
+			}
 		}
 
 		@media only screen and (max-width:999px) {
 
-			body .wpb_row .wpb_column.padding-3-percent_tablet>.vc_column-inner,
-			body .wpb_row .wpb_column.padding-3-percent_tablet>.n-sticky>.vc_column-inner {
-				padding: calc(999px * 0.03);
+			body .wpb_row .wpb_column.padding-5-percent_tablet>.vc_column-inner,
+			body .wpb_row .wpb_column.padding-5-percent_tablet>.n-sticky>.vc_column-inner {
+				padding: calc(999px * 0.05);
+			}
+		}
+
+		@media only screen and (max-width:999px) {
+			.vc_row.bottom_padding_tablet_2pct {
+				padding-bottom: 2% !important;
 			}
 		}
 
 		@media only screen and (max-width:690px) {
-			body .wpb_column.top_padding_phone_2pct>.n-sticky>.vc_column-inner {
-				padding-top: 2%;
-			}
-
-			body .wpb_column.right_padding_phone_2pct>.n-sticky>.vc_column-inner {
-				padding-right: 2%;
-			}
-
-			body .wpb_column.bottom_padding_phone_2pct>.n-sticky>.vc_column-inner {
-				padding-bottom: 2%;
-			}
-
-			body .wpb_column.left_padding_phone_2pct>.n-sticky>.vc_column-inner {
-				padding-left: 2%;
+			.vc_row.bottom_padding_phone_2pct {
+				padding-bottom: 2% !important;
 			}
 		}
 
 		@media only screen and (max-width:690px) {
-			body .wpb_column.top_padding_phone_2pct>.vc_column-inner {
-				padding-top: 2%;
-			}
-
-			body .wpb_column.right_padding_phone_2pct>.vc_column-inner {
-				padding-right: 2%;
-			}
-
-			body .wpb_column.bottom_padding_phone_2pct>.vc_column-inner {
-				padding-bottom: 2%;
-			}
-
-			body .wpb_column.left_padding_phone_2pct>.vc_column-inner {
-				padding-left: 2%;
+			body .wpb_column.max_width_phone_90pct {
+				max-width: 90%;
 			}
 		}
 
@@ -520,6 +313,44 @@
 			body .wpb_row .wpb_column.padding-5-percent_phone>.vc_column-inner,
 			body .wpb_row .wpb_column.padding-5-percent_phone>.n-sticky>.vc_column-inner {
 				padding: calc(690px * 0.05);
+			}
+		}
+
+		@media only screen and (max-width:690px) {}
+
+		@media only screen and (max-width:690px) {
+			.column_element_direction_phone_horizontal>.vc_column-inner>.wpb_wrapper {
+				display: flex;
+				align-items: center;
+			}
+
+			#ajax-content-wrap .column_element_direction_phone_horizontal>.vc_column-inner>.wpb_wrapper>* {
+				margin-bottom: 0;
+			}
+		}
+
+		@media only screen and (max-width:690px) {
+			.vc_row.top_padding_phone_3pct {
+				padding-top: 3% !important;
+			}
+		}
+
+		@media only screen and (max-width:690px) {
+			.vc_row.translate_x_phone_0px.translate_y_phone_0px {
+				-webkit-transform: translateX(0px) translateY(0px);
+				transform: translateX(0px) translateY(0px);
+			}
+		}
+
+		@media only screen and (max-width:690px) {
+			.vc_row.top_padding_phone_0px {
+				padding-top: 0 !important;
+			}
+		}
+
+		@media only screen and (max-width:690px) {
+			body #ajax-content-wrap .vc_row.left_margin_phone_0px {
+				margin-left: 0;
 			}
 		}
 
@@ -907,8 +738,11 @@
 	</style>
 	<link rel='stylesheet' id='salient-child-style-css' href='../app/lib/themes/hdws-child/style.css' media='all'>
 	<script> var root = document.getElementsByTagName("html")[0]; root.setAttribute("class", "js"); </script>
-
-	<noscript>
+	<style  data-type="vc_custom-css">
+		#ajax-content-wrap>.container-wrap {
+			background-color: #AF3A10;
+		}
+	</style><noscript>
 		<style>
 			.wpb_animate_when_almost_visible {
 				opacity: 1;
@@ -918,7 +752,7 @@
 </head>
 
 <body
-	class="page-template-default page page-id-32 page-parent original wpb-js-composer js-comp-ver-6.13.1 vc_responsive global-section-after-header-nav-active"
+	class="page-template-default page page-id-27 original wpb-js-composer js-comp-ver-6.13.1 vc_responsive global-section-after-header-nav-active"
 	data-footer-reveal="false" data-footer-reveal-shadow="none" data-header-format="default" data-body-border="off"
 	data-boxed-style="1" data-header-breakpoint="1000" data-dropdown-style="minimal" data-cae="easeOutCubic"
 	data-cad="750" data-megamenu-width="contained" data-aie="none" data-ls="fancybox" data-apte="standard" data-hhun="0"
@@ -931,7 +765,6 @@
 	data-header-color="light" data-transparent-header="false" data-cart="false" data-remove-m-parallax=""
 	data-remove-m-video-bgs="" data-m-animate="0" data-force-header-trans-color="light" data-smooth-scrolling="0"
 	data-permanent-transparent="false">
-
 	<script>
 		(function (window, document) {
 			if (navigator.userAgent.match(/(Android|iPod|iPhone|iPad|BlackBerry|IEMobile|Opera Mini)/)) {
@@ -991,7 +824,6 @@
 									data-bg-opacity="1" data-animation="" data-delay="0">
 									<div class="vc_column-inner">
 										<div class="wpb_wrapper">
-
 											<div class="wpb_text_column wpb_content_element  nav-english nav-menu-text">
 												<div class="wpb_wrapper">
 													<p style="text-align: center;"><strong><a
@@ -1000,8 +832,8 @@
 											</div>
 											<div class="wpb_text_column wpb_content_element  nav-chinese nav-menu-text">
 												<div class="wpb_wrapper">
-													<p style="text-align: center;"><a href="/zh"><strong>中文</strong></a>
-													</p>
+													<p style="text-align: center;"><a
+															href="../zh"><strong>中文</strong></a></p>
 												</div>
 											</div>
 										</div>
@@ -1024,7 +856,7 @@
 								<div class="vc_col-sm-8 wpb_column column_container vc_column_container col force-desktop-text-align-left force-tablet-text-align-center force-phone-text-align-center left_padding_desktop_7pct left_padding_tablet_0px left_padding_phone_0px bottom_padding_tablet_2pct bottom_padding_phone_2pct "
 									data-padding-pos="all" data-has-bg-color="false" data-bg-color=""
 									data-bg-opacity="1" data-animation="" data-delay="0">
-									<div class="vc_column-inner"><a class="column-link" target="_self" href="/zh"></a>
+									<div class="vc_column-inner"><a class="column-link" target="_self" href="../zh"></a>
 										<div class="wpb_wrapper">
 											<div class="img-with-aniamtion-wrap " data-max-width="100%"
 												data-max-width-mobile="default" data-shadow="none"
@@ -1050,7 +882,6 @@
 									data-bg-opacity="1" data-animation="" data-delay="0">
 									<div class="vc_column-inner">
 										<div class="wpb_wrapper">
-
 											<div class="wpb_text_column wpb_content_element  nav-english nav-menu-text">
 												<div class="wpb_wrapper">
 													<p style="text-align: center;"><strong><a
@@ -1059,8 +890,8 @@
 											</div>
 											<div class="wpb_text_column wpb_content_element  nav-chinese nav-menu-text">
 												<div class="wpb_wrapper">
-													<p style="text-align: center;"><a href="/zh"><strong>中文</strong></a>
-													</p>
+													<p style="text-align: center;"><a
+															href="../zh"><strong>中文</strong></a></p>
 												</div>
 											</div>
 										</div>
@@ -1069,7 +900,7 @@
 							</div>
 						</div>
 					</div>
-					<div id="fws_652d3ffd82ca3" data-column-margin="default" data-midnight="dark"
+					<div id="fws_652d400092d96" data-column-margin="default" data-midnight="dark"
 						class="wpb_row vc_row-fluid vc_row full-width-content vc_row-o-equal-height vc_row-flex vc_row-o-content-top"
 						style="padding-top: 0px; padding-bottom: 0px; ">
 						<div class="row-bg-wrap" data-bg-animation="none" data-bg-animation-delay=""
@@ -1099,8 +930,100 @@
 			<div class="container-wrap">
 				<div class="container main-content" role="main">
 					<div class="row">
-						<div id="fws_652d3ffd84312" data-column-margin="none" data-midnight="dark"
-							class="wpb_row vc_row-fluid vc_row top-level full-width-content vc_row-o-equal-height vc_row-flex vc_row-o-content-middle"
+						<div id="row-mobile-hidden" data-column-margin="none" data-midnight="dark" data-top-percent="3%"
+							data-bottom-percent="4%"
+							class="wpb_row vc_row-fluid vc_row top-level full-width-section  top_padding_tablet_3pct top_padding_phone_3pct bottom_padding_tablet_2pct bottom_padding_phone_2pct"
+							style="padding-top: calc(100vw * 0.03); padding-bottom: calc(100vw * 0.04); ">
+							<div class="row-bg-wrap" data-bg-animation="none" data-bg-animation-delay=""
+								data-bg-overlay="false">
+								<div class="inner-wrap row-bg-layer">
+									<div class="row-bg viewport-desktop"></div>
+								</div>
+							</div>
+							<div class="row_col_wrap_12 col span_12 dark left">
+								<div class="vc_col-sm-3 vc_col-lg-offset-0 vc_col-xs-4/5 wpb_column column_container vc_column_container col padding-2-percent max_width_desktop_20pct column_element_direction_tablet_horizontal column_element_direction_phone_horizontal no-extra-padding_tablet no-extra-padding_phone "
+									data-padding-pos="right" data-has-bg-color="false" data-bg-color=""
+									data-bg-opacity="1" data-animation="" data-delay="0">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<a class="nectar-button large see-through-3  wpb_animate_when_almost_visible wpb_fadeIn fadeIn nav-desk-button nav-sidebar-btn-1"
+												role="button" style="margin-right: 20px; margin-bottom: 20px; "
+												href="../asian-century" data-color-override="false"
+												data-hover-color-override="#c1c1c1"
+												data-hover-text-color-override="#ffffff"><span>Australia in Asian
+													Century</span></a><a
+												class="nectar-button large see-through-3  wpb_animate_when_almost_visible wpb_fadeIn fadeIn nav-desk-button nav-sidebar-btn-2"
+												role="button" style="margin-right: 20px; margin-bottom: 20px; "
+												href="../our-services" data-color-override="false"
+												data-hover-color-override="#c1a65b"
+												data-hover-text-color-override="#ffffff"><span>Our Services</span></a><a
+												class="nectar-button large see-through-3  wpb_animate_when_almost_visible wpb_fadeIn fadeIn nav-desk-button nav-sidebar-btn-3"
+												role="button" style="margin-right: 20px; margin-bottom: 20px; "
+												href="../about-us" data-color-override="false"
+												data-hover-color-override="#af502d"
+												data-hover-text-color-override="#ffffff"><span>About Us</span></a><a
+												class="nectar-button large see-through-3  wpb_animate_when_almost_visible wpb_fadeIn fadeIn nav-desk-button nav-sidebar-btn-4"
+												role="button" style="margin-right: 20px; margin-bottom: 20px; "
+												href="../contact-us" data-color-override="false"
+												data-hover-color-override="#5b5b5b"
+												data-hover-text-color-override="#ffffff"><span>Contact Us</span></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="row-desktop-hidden" data-column-margin="default" data-midnight="dark"
+							data-top-percent="5%"
+							class="wpb_row vc_row-fluid vc_row full-width-section vc_row-o-equal-height vc_row-flex"
+							style="padding-top: calc(100vw * 0.05); padding-bottom: 0px; ">
+							<div class="row-bg-wrap" data-bg-animation="none" data-bg-animation-delay=""
+								data-bg-overlay="false">
+								<div class="inner-wrap row-bg-layer">
+									<div class="row-bg viewport-desktop"></div>
+								</div>
+							</div>
+							<div class="row_col_wrap_12 col span_12 dark left">
+								<div class="vc_col-sm-6 wpb_column column_container vc_column_container col centered-text no-extra-padding inherit_tablet inherit_phone "
+									data-padding-pos="all" data-has-bg-color="false" data-bg-color=""
+									data-bg-opacity="1" data-animation="" data-delay="0">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<a class="nectar-button large see-through-3  wpb_animate_when_almost_visible wpb_fadeIn fadeIn nav-mob-button nav-sidebar-btn-1"
+												role="button" style="margin-right: 20px; margin-bottom: 20px; "
+												href="../asian-century" data-color-override="false"
+												data-hover-color-override="false"
+												data-hover-text-color-override="#ffffff"><span>Australia in Asian
+													Century</span></a><a
+												class="nectar-button large see-through-3  wpb_animate_when_almost_visible wpb_fadeIn fadeIn nav-mob-button nav-sidebar-btn-3"
+												role="button" style="margin-right: 20px; margin-bottom: 20px; "
+												href="../about-us" data-color-override="false"
+												data-hover-color-override="#af502d"
+												data-hover-text-color-override="#ffffff"><span>About Us</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="vc_col-sm-6 wpb_column column_container vc_column_container col centered-text no-extra-padding inherit_tablet inherit_phone "
+									data-padding-pos="all" data-has-bg-color="false" data-bg-color=""
+									data-bg-opacity="1" data-animation="" data-delay="0">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<a class="nectar-button large see-through-3  wpb_animate_when_almost_visible wpb_fadeIn fadeIn nav-mob-button nav-sidebar-btn-2"
+												role="button" style="margin-right: 20px; margin-bottom: 20px; "
+												href="../our-services" data-color-override="false"
+												data-hover-color-override="#c1a65b"
+												data-hover-text-color-override="#ffffff"><span>Our Services</span></a><a
+												class="nectar-button large see-through-3  wpb_animate_when_almost_visible wpb_fadeIn fadeIn nav-mob-button nav-sidebar-btn-4"
+												role="button" style="margin-right: 20px; margin-bottom: 20px; "
+												href="../contact-us" data-color-override="false"
+												data-hover-color-override="#5b5b5b"
+												data-hover-text-color-override="#ffffff"><span>Contact Us</span></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="content-translate-position" data-column-margin="default" data-midnight="dark"
+							class="wpb_row vc_row-fluid vc_row full-width-content vc_row-o-equal-height vc_row-flex vc_row-o-content-top  right_margin_5pct left_margin_2pct top_padding_tablet_0px top_padding_phone_0px translate_x_tablet_0px translate_x_phone_0px translate_y_tablet_0px translate_y_phone_0px left_margin_tablet_0px left_margin_phone_0px"
 							style="padding-top: 0px; padding-bottom: 0px; ">
 							<div class="row-bg-wrap" data-bg-animation="none" data-bg-animation-delay=""
 								data-bg-overlay="false">
@@ -1109,171 +1032,28 @@
 								</div>
 							</div>
 							<div class="row_col_wrap_12 col span_12 dark left">
-								<div class="vc_col-sm-3 wpb_column column_container vc_column_container col no-extra-padding padding-3-percent_tablet padding-5-percent_phone "
-									data-padding-pos="top-bottom" data-has-bg-color="false" data-bg-color=""
+								<div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding max_width_desktop_70pct padding-5-percent_tablet padding-5-percent_phone max_width_tablet_90pct max_width_phone_90pct "
+									data-padding-pos="all" data-has-bg-color="false" data-bg-color=""
 									data-bg-opacity="1" data-animation="" data-delay="0">
 									<div class="vc_column-inner">
 										<div class="wpb_wrapper">
-
-											<div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeInLeft fadeInLeft intro-text chinese-text"
-												style=" max-width: 370px; display: inline-block;">
-												<div class="wpb_wrapper">
-													<p><em><span
-																style="color: var(--nectar-accent-color);">我</span>们深知到一个完全陌生的国度经商投资会是个充满挑战的过程,<span
-																class="chinese-english-text" style="font-size: 13px;"> HDWS
-															</span>将您在澳洲市场的运作顺利通畅为己任,以我们在中澳两国<span
-																class="chinese-english-text" style="font-size: 13px;"> 20 </span>多年在财
-															务管理和跨越文化的商业经验为您在澳洲的商业成功之路搭桥铺路.</em></p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="vc_col-sm-9 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone "
-									data-using-bg="true" data-padding-pos="all" data-has-bg-color="false"
-									data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-									<div class="vc_column-inner">
-										<div class="column-image-bg-wrap column-bg-layer viewport-desktop"
-											data-bg-pos="center center" data-bg-animation="none"
-											data-bg-overlay="false">
-											<div class="inner-wrap">
-												<div class="column-image-bg"
-													style=" background-image: url('../app/lib/media/images/background-image-bw.png'); ">
-												</div>
-											</div>
-										</div>
-										<div class="wpb_wrapper">
-											<div class="divider-wrap" data-alignment="default">
-												<div class="homepage-banner-divider divider"></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div id="page-box-links" data-column-margin="none" data-midnight="dark"
-							class="wpb_row vc_row-fluid vc_row full-width-content vc_row-o-equal-height vc_row-flex vc_row-o-content-middle"
-							style="padding-top: 0px; padding-bottom: 0px; ">
-							<div class="row-bg-wrap" data-bg-animation="none" data-bg-animation-delay=""
-								data-bg-overlay="false">
-								<div class="inner-wrap row-bg-layer">
-									<div class="row-bg viewport-desktop"></div>
-								</div>
-							</div>
-							<div class="row_col_wrap_12 col span_12 dark center">
-								<div class="vc_col-sm-3 wpb_column column_container vc_column_container col centered-text left_padding_phone_2pct top_padding_phone_2pct right_padding_phone_2pct bottom_padding_phone_2pct "
-									data-shadow="medium_depth" data-padding-pos="all" data-has-bg-color="false"
-									data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-									<div class="vc_column-inner">
-										<div class="column-bg-overlay-wrap column-bg-layer" data-bg-animation="none">
-											<div class="column-bg-overlay"></div>
-										</div>
-										<div class="wpb_wrapper">
-											<div class="nectar-fancy-box style-5 using-img  has-animation overlay_898989 "
-												data-align="middle" data-overlay-opacity="0.7"
-												data-overlay-opacity-hover="0.2" data-style="parallax_hover"
-												data-border-radius="10px" data-animation="grow-in" data-delay="150"
-												data-color="accent-color"><a href="asian-century" class="box-link"></a>
-												<div class="parallaxImg">
-													<div class="parallaxImg-layer"
-														data-img="../app/lib/media/images/HDWS-Australia-In-Asian-Century.png">
-													</div>
-													<div class="parallaxImg-layer">
-														<div class="meta-wrap" style="min-height: 300px">
-															<div class="inner">
-																<h3 class="chinese-text tab-1"
-																	style="text-align: center">亚洲世纪的澳洲</h3>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="vc_col-sm-3 wpb_column column_container vc_column_container col centered-text left_padding_phone_2pct top_padding_phone_2pct right_padding_phone_2pct bottom_padding_phone_2pct "
-									data-shadow="small_depth" data-padding-pos="all" data-has-bg-color="false"
-									data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-									<div class="vc_column-inner">
-										<div class="column-bg-overlay-wrap column-bg-layer" data-bg-animation="none">
-											<div class="column-bg-overlay"></div>
-										</div>
-										<div class="wpb_wrapper">
-											<div class="nectar-fancy-box style-5 using-img  has-animation overlay_d68125 "
-												data-align="middle" data-overlay-opacity="0.7"
-												data-overlay-opacity-hover="0.2" data-style="parallax_hover"
-												data-border-radius="10px" data-animation="grow-in" data-delay="300"
-												data-color="accent-color"><a href="our-services" class="box-link"></a>
-												<div class="parallaxImg">
-													<div class="parallaxImg-layer"
-														data-img="../app/lib/media/images/HDWS-About-Us-jpg.webp"></div>
-													<div class="parallaxImg-layer">
-														<div class="meta-wrap" style="min-height: 300px">
-															<div class="inner">
-																<h3 class="chinese-text" style="text-align: center">
-																	我们的服务</h3>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="vc_col-sm-3 wpb_column column_container vc_column_container col centered-text left_padding_phone_2pct top_padding_phone_2pct right_padding_phone_2pct bottom_padding_phone_2pct "
-									data-shadow="small_depth" data-padding-pos="all" data-has-bg-color="false"
-									data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-									<div class="vc_column-inner">
-										<div class="column-bg-overlay-wrap column-bg-layer" data-bg-animation="none">
-											<div class="column-bg-overlay"></div>
-										</div>
-										<div class="wpb_wrapper">
-											<div class="nectar-fancy-box style-5 using-img  has-animation overlay_af3a10 "
-												data-align="middle" data-overlay-opacity="0.7"
-												data-overlay-opacity-hover="0.2" data-style="parallax_hover"
-												data-border-radius="10px" data-animation="grow-in" data-delay="450"
-												data-color="accent-color"><a href="about-us" class="box-link"></a>
-												<div class="parallaxImg">
-													<div class="parallaxImg-layer"
-														data-img="../app/lib/media/images/HDWS-About-us.png"></div>
-													<div class="parallaxImg-layer">
-														<div class="meta-wrap" style="min-height: 300px">
-															<div class="inner">
-																<h3 class="chinese-text" style="text-align: center">有关我们
-																</h3>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="vc_col-sm-3 wpb_column column_container vc_column_container col centered-text left_padding_phone_2pct top_padding_phone_2pct right_padding_phone_2pct bottom_padding_phone_2pct "
-									data-shadow="small_depth" data-padding-pos="all" data-has-bg-color="false"
-									data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-									<div class="vc_column-inner">
-										<div class="column-bg-overlay-wrap column-bg-layer" data-bg-animation="none">
-											<div class="column-bg-overlay"></div>
-										</div>
-										<div class="wpb_wrapper">
-											<div class="nectar-fancy-box style-5 using-img  has-animation overlay_333333 "
-												data-align="middle" data-overlay-opacity="0.7"
-												data-overlay-opacity-hover="0.2" data-style="parallax_hover"
-												data-border-radius="10px" data-animation="grow-in" data-delay="600"
-												data-color="accent-color"><a href="contact-us" class="box-link"></a>
-												<div class="parallaxImg">
-													<div class="parallaxImg-layer"
-														data-img="../app/lib/media/images/HDWS-Contact-us.png"></div>
-													<div class="parallaxImg-layer">
-														<div class="meta-wrap" style="min-height: 300px">
-															<div class="inner">
-																<h3 class="chinese-text" style="text-align: center">联络我们
-																</h3>
-															</div>
-														</div>
-													</div>
-												</div>
+											<h2 style="color: #ffffff;text-align: left" class="vc_custom_heading">About
+												Us</h2>
+											<div class="nectar-responsive-text nectar-link-underline-effect"
+												style="color: #ffffff;">
+												<p>The founder of HDWS Consulting, Ms. Emma L Hou has over 20 years of
+													combined working experiences in business consulting, management
+													accounting, and financial planning in the small, medium and large
+													businesses in Australia. Some of these companies are NAB finance
+													&amp; treasury, Colonial First State property management, NAB
+													financial planning and St. James’ Place wealth management as well as
+													many other types of businesses.</p>
+												<p>She had worked for both state-owned and private businesses in China
+													for nearly 10 years prior to embarking on her venture in Australia.
+													Academically she attained MPAcc, MFin, GDipFinP as well as the CPA
+													status in the past. Her cross cultural business knowledge with
+													finance &amp; accounting acumen and her integrity underscore her
+													capacity to contribute to your business activities in Australia.</p>
 											</div>
 										</div>
 									</div>
@@ -1284,7 +1064,7 @@
 				</div>
 				<div class="nectar-global-section before-footer">
 					<div class="container normal-container row">
-						<div id="fws_652d3ffd8a116" data-column-margin="default" data-midnight="dark"
+						<div id="fws_652d400096cea" data-column-margin="default" data-midnight="dark"
 							class="wpb_row vc_row-fluid vc_row full-width-section"
 							style="padding-top: 0px; padding-bottom: 0px; ">
 							<div class="row-bg-wrap" data-bg-animation="none" data-bg-animation-delay=""
@@ -1299,10 +1079,9 @@
 									data-bg-opacity="1" data-animation="" data-delay="0">
 									<div class="vc_column-inner">
 										<div class="wpb_wrapper">
-
 											<div class="wpb_text_column wpb_content_element  footer-text">
 												<div class="wpb_wrapper">
-													<p style="text-align: right;"> © Copyright 2023 HDWS Consulting
+													<p style="text-align: right;">  © Copyright 2023 HDWS Consulting
 														Melbourne</p>
 												</div>
 											</div>
@@ -1348,7 +1127,7 @@
 	<script src='../app/lib/themes/hdws/js/build/third-party/superfish0322.js?ver=1.5.8' id='superfish-js'></script>
 	<script id='nectar-frontend-js-extra'>
 		/* <![CDATA[ */
-		var nectarLove = { "ajaxurl": "https:\/\/hdws.test\/wp-admin\/admin-ajax.php", "postID": "32", "rooturl": "https:\/\/hdws.test", "disqusComments": "false", "loveNonce": "8d89d802c8", "mapApiKey": "" };
+		var nectarLove = { "ajaxurl": "https:\/\/hdws.test\/wp-admin\/admin-ajax.php", "postID": "27", "rooturl": "https:\/\/hdws.test", "disqusComments": "false", "loveNonce": "8d89d802c8", "mapApiKey": "" };
 		var nectarOptions = { "delay_js": "false", "quick_search": "false", "react_compat": "disabled", "header_entrance": "false", "simplify_ocm_mobile": "0", "mobile_header_format": "default", "ocm_btn_position": "default", "left_header_dropdown_func": "default", "ajax_add_to_cart": "0", "ocm_remove_ext_menu_items": "remove_images", "woo_product_filter_toggle": "0", "woo_sidebar_toggles": "true", "woo_sticky_sidebar": "0", "woo_minimal_product_hover": "default", "woo_minimal_product_effect": "default", "woo_related_upsell_carousel": "false", "woo_product_variable_select": "default" };
 		var nectar_front_i18n = { "menu": "Menu", "next": "Next", "previous": "Previous" };
 		/* ]]> */
